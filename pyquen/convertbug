@@ -1,0 +1,9 @@
+count=0
+mypath=$1
+d=pp
+for (( c=1; c<=500; c++ ))
+do
+    ./pu14bug.sh pp80/pp_$c.pyquen pp80bug/pp_$c.pu14 &
+    let count+=1
+    [[ $((count%5)) -eq 0 ]] && wait
+done

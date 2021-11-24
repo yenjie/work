@@ -1,0 +1,8 @@
+NEVENT 1000
+NJOB xxxx
+OUTFILE yyyy/PbPbWide_0_10_xxxx.pyquen
+WIDE 1
+QUENCHING 1
+BMIN 0
+BMAX 4.93
+PTHAT 80
